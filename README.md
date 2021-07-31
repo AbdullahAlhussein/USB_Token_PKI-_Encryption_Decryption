@@ -73,7 +73,19 @@ When you run the program, a window will appear to enter the password to be able 
  KeyStore.Builder builder = KeyStore.Builder.newInstance("PKCS11", null, chp);
  KeyStore keyStore = builder.getKeyStore();
  ```
+### After that, it will select the required certificates, which are the encryption certificate
 
+ ```
+  if( x509Certificate.getKeyUsage()[2] == true) 
+ ```
+ 
+ #### and access to the keys
+  ```
+ Key key = keyStore.getKey(alias, null); 
+ privateKey  =  (PrivateKey )key ; 
+ publicKey = x509Certificate.getPublicKey();
+  ```
+ 
 ### Then the program will encrypt the text and then it will decrypt the text
 
 <br>
