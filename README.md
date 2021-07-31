@@ -86,13 +86,16 @@ When you run the program, a window will appear to enter the password to be able 
  
  #### and access to the keys
  
+ 
   ```
  Key key = keyStore.getKey(alias, null); 
  privateKey  =  (PrivateKey )key ; 
  publicKey = x509Certificate.getPublicKey();
   ```
- 
+  <br>
+  
 #### Then the program will encrypt the text and then it will decrypt the text
+
 
 <br>
 
