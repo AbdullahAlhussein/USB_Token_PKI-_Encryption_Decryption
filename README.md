@@ -18,17 +18,6 @@ The API defines most commonly used cryptographic object types (RSA keys, X.509 C
 
 
 ---
-##	Read certificate information from token, such as:
-
-*	Private Key
-*	Public key
-*	Issuer 
-*	Key usage 
-*	Signature Algorithm
-*	Certificate Extensions
-* And a lot of information ....
-
----
 ## Specifications of the usb token that worked on :
 
 Token name: eToken
