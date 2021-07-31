@@ -73,3 +73,9 @@ When you run the program, a window will appear to enter the password to be able 
  KeyStore.Builder builder = KeyStore.Builder.newInstance("PKCS11", null, chp);
  KeyStore keyStore = builder.getKeyStore();
  ```
+
+### Then the program will encrypt the text and then it will decrypt the text
+
+<br>
+
+![PKI8](https://user-images.githubusercontent.com/70335592/127736078-f5789be9-42b2-4e09-aa27-f3d6a9e37eb4.png)
