@@ -1,4 +1,4 @@
-# USB_Token_PKI_Encryption_Decryption
+# USB_Token_PKI_Encryption_Decryption_Text
 USB token based certificates are an implementation of PKCS#11, one of the Public-Key Cryptography Standards. Digital signature certificates are issued by a Certificate Authority (CA).
 
 
