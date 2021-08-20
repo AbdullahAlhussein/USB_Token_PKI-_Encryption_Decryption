@@ -27,7 +27,7 @@ public class EToken_22 {
 
     	
 	    // Create instance of SunPKCS11 provider
-     	    String pkcs11Config = "C:\\Users\\ö0570417090\\eclipse-workspace\\EToken_22\\config.cfg";
+     	    String pkcs11Config = "C:\\Users\\Hello\\eclipse-workspace\\EToken_22\\config.cfg";
     	    java.io.ByteArrayInputStream pkcs11ConfigStream = new java.io.ByteArrayInputStream(pkcs11Config.getBytes());
 	    sun.security.pkcs11.SunPKCS11 providerPKCS11 = new sun.security.pkcs11.SunPKCS11(pkcs11Config);
 	    java.security.Security.addProvider(providerPKCS11);   
